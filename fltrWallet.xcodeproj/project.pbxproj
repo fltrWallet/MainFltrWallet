@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2C1309BD292699210035F14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1309B9292699200035F14D /* Assets.xcassets */; };
-		2C1309BE292699210035F14D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1309BB292699200035F14D /* Preview Assets.xcassets */; };
 		2C1309BF292699210035F14D /* FltrWalletMainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1309BC292699200035F14D /* FltrWalletMainApp.swift */; };
 		2C1A3B6329269A6C006AD600 /* blockheaders_2021.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A3B5729269A6C006AD600 /* blockheaders_2021.json */; };
 		2C1A3B6429269A6C006AD600 /* swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A3B5929269A6C006AD600 /* swoosh.mp3 */; };
@@ -21,12 +20,11 @@
 		2C1A3B6B29269A6C006AD600 /* blockheaders_2015.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A3B6029269A6C006AD600 /* blockheaders_2015.json */; };
 		2C1A3B6C29269A6C006AD600 /* blockheaders_2019.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A3B6129269A6C006AD600 /* blockheaders_2019.json */; };
 		2C1A3B6D29269A6C006AD600 /* blockheaders_2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A3B6229269A6C006AD600 /* blockheaders_2020.json */; };
-		2CEC6CE729269620000EB2E5 /* fltrWallet in Frameworks */ = {isa = PBXBuildFile; productRef = 2CEC6CE629269620000EB2E5 /* fltrWallet */; };
+		2C753CAF29B0C361003F0784 /* fltrWallet-lib in Frameworks */ = {isa = PBXBuildFile; productRef = 2C753CAE29B0C361003F0784 /* fltrWallet-lib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C1309B9292699200035F14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C1309BB292699200035F14D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C1309BC292699200035F14D /* FltrWalletMainApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FltrWalletMainApp.swift; sourceTree = "<group>"; };
 		2C1A3B5729269A6C006AD600 /* blockheaders_2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockheaders_2021.json; sourceTree = "<group>"; };
 		2C1A3B5929269A6C006AD600 /* swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swoosh.mp3; sourceTree = "<group>"; };
@@ -39,7 +37,7 @@
 		2C1A3B6029269A6C006AD600 /* blockheaders_2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockheaders_2015.json; sourceTree = "<group>"; };
 		2C1A3B6129269A6C006AD600 /* blockheaders_2019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockheaders_2019.json; sourceTree = "<group>"; };
 		2C1A3B6229269A6C006AD600 /* blockheaders_2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockheaders_2020.json; sourceTree = "<group>"; };
-		2CEC6CD4292695AF000EB2E5 /* fltrWallet – Bitcoin Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fltrWallet – Bitcoin Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CEC6CD4292695AF000EB2E5 /* fltrWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fltrWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CEC6CE729269620000EB2E5 /* fltrWallet in Frameworks */,
+				2C753CAF29B0C361003F0784 /* fltrWallet-lib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,18 +66,9 @@
 				2C1A3B5F29269A6C006AD600 /* blockheaders_2022.json */,
 				2C1A3B5829269A6C006AD600 /* Sounds */,
 				2C1309B9292699200035F14D /* Assets.xcassets */,
-				2C1309BA292699200035F14D /* Preview Content */,
 				2C1309BC292699200035F14D /* FltrWalletMainApp.swift */,
 			);
 			path = fltrWallet;
-			sourceTree = "<group>";
-		};
-		2C1309BA292699200035F14D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2C1309BB292699200035F14D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		2C1A3B5829269A6C006AD600 /* Sounds */ = {
@@ -102,7 +91,7 @@
 		2CEC6CD5292695AF000EB2E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CEC6CD4292695AF000EB2E5 /* fltrWallet – Bitcoin Wallet.app */,
+				2CEC6CD4292695AF000EB2E5 /* fltrWallet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CEC6CD3292695AF000EB2E5 /* fltrWallet – Bitcoin Wallet */ = {
+		2CEC6CD3292695AF000EB2E5 /* fltrWallet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CEC6CE2292695AF000EB2E5 /* Build configuration list for PBXNativeTarget "fltrWallet – Bitcoin Wallet" */;
+			buildConfigurationList = 2CEC6CE2292695AF000EB2E5 /* Build configuration list for PBXNativeTarget "fltrWallet" */;
 			buildPhases = (
 				2CEC6CD0292695AF000EB2E5 /* Sources */,
 				2CEC6CD1292695AF000EB2E5 /* Frameworks */,
@@ -122,12 +111,12 @@
 			);
 			dependencies = (
 			);
-			name = "fltrWallet – Bitcoin Wallet";
+			name = fltrWallet;
 			packageProductDependencies = (
-				2CEC6CE629269620000EB2E5 /* fltrWallet */,
+				2C753CAE29B0C361003F0784 /* fltrWallet-lib */,
 			);
 			productName = "fltrWallet - Bitcoin Wallet";
-			productReference = 2CEC6CD4292695AF000EB2E5 /* fltrWallet – Bitcoin Wallet.app */;
+			productReference = 2CEC6CD4292695AF000EB2E5 /* fltrWallet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,13 +144,13 @@
 			);
 			mainGroup = 2CEC6CCB292695AF000EB2E5;
 			packageReferences = (
-				2CEC6CE529269620000EB2E5 /* XCRemoteSwiftPackageReference "fltrWallet" */,
+				2C753CAD29B0C361003F0784 /* XCRemoteSwiftPackageReference "fltrWallet" */,
 			);
 			productRefGroup = 2CEC6CD5292695AF000EB2E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CEC6CD3292695AF000EB2E5 /* fltrWallet – Bitcoin Wallet */,
+				2CEC6CD3292695AF000EB2E5 /* fltrWallet */,
 			);
 		};
 /* End PBXProject section */
@@ -176,7 +165,6 @@
 				2C1A3B6B29269A6C006AD600 /* blockheaders_2015.json in Resources */,
 				2C1A3B6A29269A6C006AD600 /* blockheaders_2022.json in Resources */,
 				2C1A3B6C29269A6C006AD600 /* blockheaders_2019.json in Resources */,
-				2C1309BE292699210035F14D /* Preview Assets.xcassets in Resources */,
 				2C1A3B6929269A6C006AD600 /* blockheaders_2014.json in Resources */,
 				2C1A3B6629269A6C006AD600 /* blockheaders_2018.json in Resources */,
 				2C1A3B6D29269A6C006AD600 /* blockheaders_2020.json in Resources */,
@@ -251,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -305,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -320,13 +308,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"fltrWallet/Preview Content\"";
-				DEVELOPMENT_TEAM = VSDLQCUY8B;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6ZAQ66ZPVF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "fltrWallet---Bitcoin-Wallet-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera needed for QR code scan";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Private Key Access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -339,9 +328,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.fltr.fltrWallet;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fltrwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,13 +343,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"fltrWallet/Preview Content\"";
-				DEVELOPMENT_TEAM = VSDLQCUY8B;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6ZAQ66ZPVF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "fltrWallet---Bitcoin-Wallet-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera needed for QR code scan";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Private Key Access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -372,9 +363,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.fltr.fltrWallet;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fltrwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -393,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CEC6CE2292695AF000EB2E5 /* Build configuration list for PBXNativeTarget "fltrWallet – Bitcoin Wallet" */ = {
+		2CEC6CE2292695AF000EB2E5 /* Build configuration list for PBXNativeTarget "fltrWallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CEC6CE3292695AF000EB2E5 /* Debug */,
@@ -405,7 +397,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2CEC6CE529269620000EB2E5 /* XCRemoteSwiftPackageReference "fltrWallet" */ = {
+		2C753CAD29B0C361003F0784 /* XCRemoteSwiftPackageReference "fltrWallet" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/fltrWallet/fltrWallet.git";
 			requirement = {
@@ -416,10 +408,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2CEC6CE629269620000EB2E5 /* fltrWallet */ = {
+		2C753CAE29B0C361003F0784 /* fltrWallet-lib */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2CEC6CE529269620000EB2E5 /* XCRemoteSwiftPackageReference "fltrWallet" */;
-			productName = fltrWallet;
+			package = 2C753CAD29B0C361003F0784 /* XCRemoteSwiftPackageReference "fltrWallet" */;
+			productName = "fltrWallet-lib";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

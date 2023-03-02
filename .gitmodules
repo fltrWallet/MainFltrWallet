@@ -1,0 +1,51 @@
+[submodule "lib/fltrWallet"]
+	path = lib/fltrWallet
+	url = https://github.com/fltrWallet/fltrWallet
+[submodule "lib/bech32"]
+	path = lib/bech32
+	url = https://github.com/fltrWallet/bech32
+[submodule "lib/FastrangeSipHash"]
+	path = lib/FastrangeSipHash
+	url = https://github.com/fltrWallet/FastrangeSipHash
+[submodule "lib/FileRepo"]
+	path = lib/FileRepo
+	url = https://github.com/fltrWallet/FileRepo
+[submodule "lib/fltrBtc"]
+	path = lib/fltrBtc
+	url = https://github.com/fltrWallet/fltrBtc
+[submodule "lib/fltrECC"]
+	path = lib/fltrECC
+	url = https://github.com/fltrWallet/fltrECC
+[submodule "lib/fltrJET"]
+	path = lib/fltrJET
+	url = https://github.com/fltrWallet/fltrJET
+[submodule "lib/fltrNode"]
+	path = lib/fltrNode
+	url = https://github.com/fltrWallet/fltrNode
+[submodule "lib/fltrTx"]
+	path = lib/fltrTx
+	url = https://github.com/fltrWallet/fltrTx
+[submodule "lib/fltrUI"]
+	path = lib/fltrUI
+	url = https://github.com/fltrWallet/fltrUI
+[submodule "lib/fltrVault"]
+	path = lib/fltrVault
+	url = https://github.com/fltrWallet/fltrVault
+[submodule "lib/fltrWAPI"]
+	path = lib/fltrWAPI
+	url = https://github.com/fltrWallet/fltrWAPI
+[submodule "lib/HaByLo"]
+	path = lib/HaByLo
+	url = https://github.com/fltrWallet/HaByLo
+[submodule "lib/KeyChainClient"]
+	path = lib/KeyChainClient
+	url = https://github.com/fltrWallet/KeyChainClient
+[submodule "lib/NameResolver"]
+	path = lib/NameResolver
+	url = https://github.com/fltrWallet/NameResolver
+[submodule "lib/Stream64"]
+	path = lib/Stream64
+	url = https://github.com/fltrWallet/Stream64
+[submodule "lib/UserDefaultsClient"]
+	path = lib/UserDefaultsClient
+	url = https://github.com/fltrWallet/UserDefaultsClient

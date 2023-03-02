@@ -37,6 +37,23 @@
 		2C1A3B6029269A6C006AD600 /* blockheaders_2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockheaders_2015.json; sourceTree = "<group>"; };
 		2C1A3B6129269A6C006AD600 /* blockheaders_2019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockheaders_2019.json; sourceTree = "<group>"; };
 		2C1A3B6229269A6C006AD600 /* blockheaders_2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockheaders_2020.json; sourceTree = "<group>"; };
+		2CD61B7629B0F59B00224533 /* fltrWallet */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = fltrWallet; path = lib/fltrWallet; sourceTree = "<group>"; };
+		2CD61B7729B0F7FA00224533 /* fltrBtc */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = fltrBtc; path = lib/fltrBtc; sourceTree = "<group>"; };
+		2CD61B7829B0F7FA00224533 /* fltrNode */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = fltrNode; path = lib/fltrNode; sourceTree = "<group>"; };
+		2CD61B7929B0F7FA00224533 /* FileRepo */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FileRepo; path = lib/FileRepo; sourceTree = "<group>"; };
+		2CD61B7A29B0F7FB00224533 /* fltrWAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = fltrWAPI; path = lib/fltrWAPI; sourceTree = "<group>"; };
+		2CD61B7B29B0F7FB00224533 /* fltrJET */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = fltrJET; path = lib/fltrJET; sourceTree = "<group>"; };
+		2CD61B7C29B0F7FB00224533 /* NameResolver */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NameResolver; path = lib/NameResolver; sourceTree = "<group>"; };
+		2CD61B7D29B0F7FB00224533 /* HaByLo */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HaByLo; path = lib/HaByLo; sourceTree = "<group>"; };
+		2CD61B7E29B0F7FB00224533 /* KeyChainClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = KeyChainClient; path = lib/KeyChainClient; sourceTree = "<group>"; };
+		2CD61B7F29B0F7FB00224533 /* UserDefaultsClient */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UserDefaultsClient; path = lib/UserDefaultsClient; sourceTree = "<group>"; };
+		2CD61B8029B0F7FB00224533 /* Stream64 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Stream64; path = lib/Stream64; sourceTree = "<group>"; };
+		2CD61B8129B0F7FB00224533 /* bech32 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = bech32; path = lib/bech32; sourceTree = "<group>"; };
+		2CD61B8229B0F7FB00224533 /* fltrUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = fltrUI; path = lib/fltrUI; sourceTree = "<group>"; };
+		2CD61B8329B0F7FB00224533 /* FastrangeSipHash */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FastrangeSipHash; path = lib/FastrangeSipHash; sourceTree = "<group>"; };
+		2CD61B8429B0F7FB00224533 /* fltrECC */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = fltrECC; path = lib/fltrECC; sourceTree = "<group>"; };
+		2CD61B8529B0F7FB00224533 /* fltrVault */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = fltrVault; path = lib/fltrVault; sourceTree = "<group>"; };
+		2CD61B8629B0F7FB00224533 /* fltrTx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = fltrTx; path = lib/fltrTx; sourceTree = "<group>"; };
 		2CEC6CD4292695AF000EB2E5 /* fltrWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fltrWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +101,23 @@
 			isa = PBXGroup;
 			children = (
 				2C1309B8292699200035F14D /* fltrWallet */,
+				2CD61B8129B0F7FB00224533 /* bech32 */,
+				2CD61B8329B0F7FB00224533 /* FastrangeSipHash */,
+				2CD61B7929B0F7FA00224533 /* FileRepo */,
+				2CD61B7729B0F7FA00224533 /* fltrBtc */,
+				2CD61B8429B0F7FB00224533 /* fltrECC */,
+				2CD61B7B29B0F7FB00224533 /* fltrJET */,
+				2CD61B7829B0F7FA00224533 /* fltrNode */,
+				2CD61B8629B0F7FB00224533 /* fltrTx */,
+				2CD61B8229B0F7FB00224533 /* fltrUI */,
+				2CD61B8529B0F7FB00224533 /* fltrVault */,
+				2CD61B7A29B0F7FB00224533 /* fltrWAPI */,
+				2CD61B7D29B0F7FB00224533 /* HaByLo */,
+				2CD61B7E29B0F7FB00224533 /* KeyChainClient */,
+				2CD61B7C29B0F7FB00224533 /* NameResolver */,
+				2CD61B8029B0F7FB00224533 /* Stream64 */,
+				2CD61B7F29B0F7FB00224533 /* UserDefaultsClient */,
+				2CD61B7629B0F59B00224533 /* fltrWallet */,
 				2CEC6CD5292695AF000EB2E5 /* Products */,
 			);
 			sourceTree = "<group>";

@@ -10,7 +10,7 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 //===----------------------------------------------------------------------===//
-import fltrWallet
+import fltrWallet_lib
 import SwiftUI
 
 @main
